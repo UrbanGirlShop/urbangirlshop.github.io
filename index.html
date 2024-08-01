@@ -13,13 +13,16 @@
             background-position: center;
             font-family: Arial, sans-serif;
         }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px; /* Adjust as needed */
+        }
         h1 {
-            text-align: center;
             background-color: rgb(91, 88, 87);
-            display: inline;
             color: rgb(173, 179, 4);
-            padding: 5px 10px; 
-            
+            padding: 5px 10px;
         }
         .container {
             text-align: center;
@@ -30,14 +33,14 @@
         .social-link img {
             width: 100px;
             height: 100px;
-            display: block; /* Ensures the image is displayed on a new line */
-            margin: 0 auto; /* Centers the image */
+            display: block;
+            margin: 0 auto;
         }
         .highlight-text {
             color: rgb(82, 87, 23);
             background-color: rgb(91, 88, 87);
             display: inline-block;
-            padding: 2px 4px; /* Optional: adds some padding around the text */
+            padding: 2px 4px;
         }
         @media (max-width: 768px) {
             .social-link {
@@ -51,7 +54,9 @@
     </style>
 </head>
 <body>
-    <h1>Web stranica urbangirl.shop</h1>
+    <div class="header">
+        <h1>Web stranica urbangirl.shop</h1>
+    </div>
     <div class="container">
         <div class="social-link">
             <a href="https://www.instagram.com/urbangirl.shop/">
