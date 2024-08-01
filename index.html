@@ -25,6 +25,11 @@
         }
         .social-link {
             margin-bottom: 20px;
+            display: inline-block; /* Ensures that the links only take up space around their contents */
+        }
+        .social-link a {
+            text-decoration: none; /* Removes underline from links */
+            color: inherit; /* Inherits text color from parent */
         }
         .social-link img {
             width: 100px;
@@ -36,7 +41,8 @@
             color: rgb(173, 179, 4);
             background-color: rgb(35, 41, 80);
             display: inline-block;
-            padding: 2px 4px; /* Optional: adds some padding around the text */
+            padding: 2px 4px; /* Adds some padding around the text */
+            margin-bottom: 10px; /* Adds space between text and image */
         }
         @media (max-width: 768px) {
             .social-link {
@@ -53,20 +59,20 @@
     <h1>Web stranica urbangirl.shop</h1>
     <div class="container">
         <div class="social-link">
-            <h2 class="highlight-text">@urbangirl.shop</h2>
             <a href="https://www.instagram.com/urbangirl.shop/">
+                <h2 class="highlight-text">@urbangirl.shop</h2>
                 <img src="instagram_icon.png" alt="Instagram stranica">
             </a>
         </div>
         <div class="social-link">
-            <h2 class="highlight-text">@.urbangirl.shop</h2>
             <a href="https://www.tiktok.com/@.urbangirl.shop?_t=8oSf95gXzxG&_r=1">
+                <h2 class="highlight-text">@.urbangirl.shop</h2>
                 <img src="tiktok_icon.png" alt="TikTok stranica">
             </a>
         </div>
         <div class="social-link">
-            <h2 class="highlight-text">@urbangirl_shop</h2>
             <a href="https://pin.it/73ty7eUNB">
+                <h2 class="highlight-text">@urbangirl_shop</h2>
                 <img src="pinterest_icon.png" alt="Pinterest stranica">
             </a>
         </div>
