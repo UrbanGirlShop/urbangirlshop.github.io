@@ -26,6 +26,14 @@
         .social-link img {
             width: 100px;
             height: 100px;
+            display: block; /* Ensures the image is displayed on a new line */
+            margin: 0 auto; /* Centers the image */
+        }
+        .highlight-text {
+            color: rgb(82, 87, 23);
+            background-color: rgb(91, 88, 87);
+            display: inline-block;
+            padding: 2px 4px; /* Optional: adds some padding around the text */
         }
         @media (max-width: 768px) {
             .social-link {
@@ -43,19 +51,19 @@
     <div class="container">
         <div class="social-link">
             <a href="https://www.instagram.com/urbangirl.shop/">
-                <h2 style="color:rgb(82, 87, 23);background-color:rgb(91,88,87);display:inline-block;">@urbangirl.shop</h2>
+                <h2><span class="highlight-text">@urbangirl.shop</span></h2>
                 <img src="instagram_icon.png" alt="Instagram stranica">
             </a>
         </div>
         <div class="social-link">
             <a href="https://www.tiktok.com/@.urbangirl.shop?_t=8oSf95gXzxG&_r=1">
-                <h2 style="color:rgb(173, 179, 4)">@urbangirl.shop</h2>
+                <h2><span class="highlight-text">@urbangirl.shop</span></h2>
                 <img src="tiktok_icon.png" alt="TikTok stranica">
             </a>
         </div>
         <div class="social-link">
             <a href="https://www.pinterest.com/">
-                <h2 style="color:rgb(173, 179, 4)">@urbangirl.shop</h2>
+                <h2><span class="highlight-text">@urbangirl.shop</span></h2>
                 <img src="pinterest_icon.png" alt="Pinterest stranica">
             </a>
         </div>
